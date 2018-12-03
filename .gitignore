@@ -1,0 +1,25 @@
+guess-the-number-client/node_modules
+guess-the-number-server/node_modules
+guess-the-number-server/target
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+guess-the-number-client/node_modules
+
+# testing
+guess-the-number-client/coverage
+
+# production
+guess-the-number-client/build
+
+# misc
+guess-the-number-client/.DS_Store
+guess-the-number-client/.env.local
+guess-the-number-client/.env.development.local
+guess-the-number-client/.env.test.local
+guess-the-number-client/.env.production.locguess-the-number-client/al
+
+guess-the-number-client/npm-debug.log*
+guess-the-number-client/yarn-debug.log*
+guess-the-number-client/yarn-error.log*
