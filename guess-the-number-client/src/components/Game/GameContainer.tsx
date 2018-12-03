@@ -10,7 +10,7 @@ interface IState {
   minVal: number;
   maxVal: number;
   currentVal: number | null;
-  maxGuesses: 5;
+  maxGuesses: number;
   log: string;
   guessesMade: number[];
 }
@@ -21,7 +21,7 @@ class GameContainer extends React.Component<{}, IState> {
     minVal: 0,
     maxVal: 20,
     currentVal: null,
-    maxGuesses: 5,
+    maxGuesses: 3,
     log: "",
     guessesMade: []
   };

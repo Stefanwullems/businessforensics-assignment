@@ -10,7 +10,7 @@ import Guess from "./Guess";
 
 @Entity()
 class Game extends BaseEntity {
-  public static maxGuesses = 5;
+  public static maxGuesses = 3;
 
   @PrimaryGeneratedColumn()
   id: number;
